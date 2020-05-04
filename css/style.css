@@ -279,13 +279,6 @@ header {
 .header-top {
 	position: relative;
 }
-.show {
-	background: linear-gradient(-53deg, rgba(0, 184, 212, 1), rgba(29, 233, 182, 1));
-	width: 100%;
-	position: absolute;
-	top: 40px;
-	z-index: 10;
-}
 .header-top div.row {
 	padding-top: 50px;
 }
