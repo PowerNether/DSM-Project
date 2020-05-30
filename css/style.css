@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, p {
     	max-width: 1140px;
     	padding: 0px;
 	}
+	.header-middle {
+		padding: 125px 0 125px !important;
+	}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
 	.container {
@@ -76,6 +79,14 @@ h1, h2, h3, h4, h5, p {
 		max-width: 600px !important;
 		max-height: 321px !important;
 	}
+	.navbar-collapse {
+		position: absolute;
+		z-index: 10;
+		top: 50px;
+		background-color: rgba(29, 233, 182, .9);
+		width: 100%;
+		padding: 5px 10px 5px 10px;
+	}
 	/* Блок 1 */
 	.section-one-content {
 		flex-direction: column;
@@ -98,7 +109,10 @@ h1, h2, h3, h4, h5, p {
 		flex-direction: column;
 	}
 	.section-two-content {
-		display: block !important;
+		display: block!important;
+		max-width: 220px;
+		margin: 0 auto;
+		padding: 30px 0 !important;
 	}
 	/* Блок 4 */
 	.section-four .row {
@@ -219,6 +233,15 @@ h1, h2, h3, h4, h5, p {
 	}
 	.header-middle-mediaplayer-onplayer-button .fas {
 		margin: 19px 20px !important;
+	}
+	.section-two-content {
+		display: block!important;
+		max-width: 220px;
+		margin: 0 auto;
+		padding: 30px 0 !important;
+	}
+	.section-two-content-text {
+		font-size: 18px !important;
 	}
 }
 
@@ -407,7 +430,7 @@ a.navbar-brand {
 .header-middle-button-one {
 	background-color: #061e37;
 	color: #fff;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-weight: normal;
 }
 .header-middle-button-one:hover {
@@ -421,7 +444,7 @@ a.navbar-brand {
 }
 .header-middle-button-two:hover {
 	background-color: #061e37;
-  	color: #ffffff;
+  color: #ffffff;
 }
 
 /* Блок 1 */
