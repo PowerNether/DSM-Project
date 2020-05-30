@@ -238,10 +238,14 @@ h1, h2, h3, h4, h5, p {
 		display: block!important;
 		max-width: 220px;
 		margin: 0 auto;
-		padding: 30px 0 !important;
+		padding: 25px 0 !important;
 	}
 	.section-two-content-text {
 		font-size: 18px !important;
+	}
+	.section-two-content-logo {
+		width: 50px !important;
+		height: 50px !important;
 	}
 }
 
