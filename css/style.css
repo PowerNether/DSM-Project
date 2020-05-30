@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, p {
    		max-width: 600px !important;
     	max-height: 321px !important;
 	}
+	
 }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
